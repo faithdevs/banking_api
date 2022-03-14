@@ -81,5 +81,8 @@ POST /auth/login
 }
 ```
 
+# Postman Api Documentation
+The postman doc with the api urls, paramters passed and the http response. Check it out [Lendsqr bank api](https://documenter.getpostman.com/view/12575851/UVsJx7E3)
+
 # License
 ISC License.
