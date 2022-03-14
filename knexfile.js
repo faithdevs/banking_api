@@ -8,7 +8,7 @@ module.exports = {
       host: 'localhost',
       user: 'root',
       password: '',
-      database: 'wallet_api'
+      database: 'banking_api'
     },
     migrations: {
       tableName: 'migrations'

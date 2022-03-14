@@ -59,7 +59,7 @@ app.use(
   session({
     secret: process.env.SESSION_SECRET,
     resave: false,
-    saveUnintialized: true,
+    saveUninitialized: true,
     cookie: {
       secure: true,
       httpOnly: true,
@@ -153,5 +153,5 @@ app.get(
 
 // Listen
 app.listen(PORT, () => {
-  console.log(`Running on :${PORT}`);
+  console.log(`Running on port:${PORT}`);
 });
